@@ -1,6 +1,6 @@
 ## Click here to check my App 
 
-[Expense-Tracker-App](expense-tracker-react-shumyla.surge)
+[Expense-Tracker-App](expense-tracker-react-shumyla.surge.sh)
 
 ## Available Scripts
 
