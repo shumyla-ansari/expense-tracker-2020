@@ -53,21 +53,25 @@
 
 .totalincome {
     color: '#0d7377';
+    display: flex;
     width: auto;
     text-align: center;
     position: relative;
-    right: 100px;
+    left: 10px;
     justify-content: center;
+    padding: 5px 20px 5px 5px;
+
 }
 
 .totalexpense {
     color: '#0d7377';
+    display: flex;
     width: auto;
     position: relative;
-    left: 100px;
-
     text-align: center;
     justify-content: center;
+    padding: 5px 5px 5px 20px;
+    right: 10px;
 }
 
 .item {
