@@ -8,10 +8,10 @@ import Zoom from "@material-ui/core/Zoom";
 
 const useStyles = makeStyles((theme) => ({
   margin: {
-    margin: theme.spacing(1),
+    margin: theme.spacing(0),
     float: "left",
     "&:hover": {
-      color: red[500],
+      color: red[500]
     },
   },
 
