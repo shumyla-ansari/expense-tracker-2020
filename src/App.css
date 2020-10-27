@@ -7,19 +7,15 @@
     background-color: #e4f9f5;
     background-image: url("https://www.transparenttextures.com/patterns/paper-3.png");
     font-family: 'Roboto', sans-serif;
-
 }
 
 .App-header {
-
-
     display: flex;
     flex-direction: row;
     align-items: top;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #11999e;
-
 }
 
 .App-footer {
@@ -53,8 +49,6 @@
     align-items: center;
     display: flex;
     width: auto;
-
-
 }
 
 .totalincome {
@@ -64,7 +58,6 @@
     flex-direction: row;
     text-align: center;
     justify-content: center;
-
 }
 
 .totalexpense {
@@ -74,7 +67,6 @@
     flex-direction: row;
     text-align: center;
     justify-content: center;
-
 }
 
 .item {
@@ -86,7 +78,6 @@
     flex-direction: row;
     text-align: justify;
     height: 70px;
-
 }
 
 .description {
@@ -94,8 +85,9 @@
     float: center;
     flex-direction: row;
     justify-content: center;
-    margin-right: 200px;
-    position: absolute;
+    /* margin-right: 200px; */
+    position: relative;
+    left: auto;
     flex-direction: row;
     text-align: left;
     padding-top: 10px;
@@ -111,7 +103,6 @@
 }
 
 .item li {
-
     box-shadow: var(--box-shadow);
     width: 300px;
     color: #333;
@@ -119,20 +110,18 @@
     text-align: center;
     position: relative;
     font-size: large;
-
-
+    height: 30px
 }
 
 .amount {
     width: 80px;
-    float: center;
     flex-direction: row;
-    margin-left: 160px;
     position: relative;
-    flex-direction: row;
     text-align: right;
     padding-top: 10px;
     height: auto;
+    position: absolute;
+    left: 200px;
 }
 
 
@@ -145,7 +134,7 @@
     position: relative;
     flex-direction: row;
     text-align: right;
-    height: auto;
+    height: 50px;
 }
 
 .form {
@@ -160,8 +149,6 @@
     background-color: #acd8ac;
     border-bottom-style: solid;
     border-bottom-color: green;
-
-
 }
 
 .item li.minus:hover {
