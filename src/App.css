@@ -1,37 +1,179 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 
 .App-body {
     background-color: #e4f9f5;
     background-image: url("https://www.transparenttextures.com/patterns/paper-3.png");
-
-    font-family: 'Noto Sans JP', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+
 }
 
 .App-header {
 
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: top;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #11999e;
+
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #11999e;
+
 }
 
-.App-link {
-  color: #61dafb;
+.App-footer {
+    color: grey;
+    font-weight: lighter;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: auto
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.balance {
+    color: #41aea9;
+    width: auto;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+
+}
+
+.heading {
+    color: #40514e;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: auto;
+
+
+}
+
+.totalincome {
+    color: '#0d7377';
+    width: 200px;
+    float: left;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.totalexpense {
+    color: '#0d7377';
+    width: 200px;
+    float: left;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.item {
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    height: 80px;
+
+}
+
+.description {
+    width: auto;
+    float: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 200px;
+    position: absolute;
+    flex-direction: row;
+    text-align: left;
+    padding-top: 10px;
+    height: auto;
+}
+
+.heading h2.credit {
+    color: red
+}
+
+.heading h2.debit {
+    color: green
+}
+
+.item li {
+
+    box-shadow: var(--box-shadow);
+    width: 300px;
+    color: #333;
+    display: flex;
+    text-align: center;
+    position: relative;
+    font-size: large;
+
+
+}
+
+.amount {
+    width: 80px;
+    float: center;
+    flex-direction: row;
+    margin-left: 160px;
+    position: relative;
+    flex-direction: row;
+    text-align: right;
+    padding-top: 10px;
+    height: auto;
+}
+
+
+.btn {
+    width: auto;
+    float: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 10px;
+    position: relative;
+    flex-direction: row;
+    text-align: right;
+    height: auto;
+}
+
+.form {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.item li.plus:hover {
+    background-color: #acd8ac;
+    border-bottom-style: solid;
+    border-bottom-color: green;
+
+
+}
+
+.item li.minus:hover {
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    background-color: rgb(247, 191, 181);
+}
+
+
+.addTrans {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex
 }
