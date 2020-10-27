@@ -21,10 +21,10 @@ export default function TotalTransactions() {
   return (
     <div className='heading'>
       <h2 className='totalincome'>Total Income</h2>
-      <h2 className='totalincome'>{income}</h2>
+      <h2 className='totalincome' style={{marginLeft: "20px"}}>${income}</h2>
       <Divider orientation='vertical' flexItem />
       <h2 className='totalexpense'>Total Expense</h2>
-      <h2 className='totalexpense'>{expense}</h2>
+      <h2 className='totalexpense'style={{marginLeft: "20px"}}>${expense}</h2>
     </div>
   );
 }
