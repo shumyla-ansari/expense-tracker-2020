@@ -16,12 +16,13 @@ const useStyles = makeStyles((theme) => ({
   },
   margin: {
     margin: theme.spacing(1),
+    width: "100px"
   },
   withoutLabel: {
-    marginTop: theme.spacing(3),
+    marginTop: theme.spacing(2),
   },
   textField: {
-    width: "auto",
+    width: "100px",
   },
   addbtn: {
     marginTop: 10,
